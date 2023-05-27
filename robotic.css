@@ -1,0 +1,114 @@
+/*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }*/
+  body{
+    height: 100vh;
+    background:url('image/space-3197606.jpg');
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(1px);
+
+  }
+  .container{
+    max-width: 1300px;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo{
+    font-size: 35px;
+    color: #fff;
+  }
+  .navbar-menu a{
+    color:blue;
+    font-size: 13px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 100;
+    padding: 12px 15px;
+    border-radius: 2px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.4s;
+  }
+  
+  .navbar-menu a:hover{
+    background-color:burlywood;
+    color: #000;
+  }
+.contact .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+    padding: 2.5rem 0;
+
+  }
+  h1{
+    text-align: center;
+    margin-top: 20px;
+    color:darkgoldenrod;
+    transition: 0.7s ease;
+
+  }
+  p{
+    text-align: center;
+    margin-top: 20px;
+    color:darkslategray;
+    font-size: 25px;
+    transition: 0.7s ease;
+
+  }
+  .praa{
+    text-align:left;
+    font-size: 20px;
+    color:chocolate;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.7s ease;
+    margin-left: 70px;
+
+  }
+  h2{
+    color: crimson;
+    margin-top: 35px;
+    transition: 0.7s ease;
+    margin-left: 70px;
+
+  }
+
+ 
+.hau{
+  margin-left: 769px;
+  margin-top: -552px;
+  transition: 0.7s ease;
+
+}
+.ert{
+  margin-left: 500px;
+  margin-top: 5px;
+  font-size: 20px;
+  color:chocolate;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  transition: 0.7s ease;
+
+}
+.vid{
+  margin-left: 732px;
+  margin-top: -7px;
+  transition: 0.7s ease;
+
+}
+.vid:hover{
+  transform : scale(1.1)
+
+}
+.vid2{
+  transition: 0.7s ease;
+
+}
+.vid2:hover{
+  transform : scale(1.1)
+
+}

@@ -1,0 +1,38 @@
+body{
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)), url('image/pexels-shvets-production-7512950.jpg');
+    background-position: center;
+    background-size: cover;
+}
+form{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+padding-left: 150px;
+margin-top: 20%;}
+
+fieldset{
+    width: 20%;
+    height: 75vh;
+}
+
+.b{
+    padding-top: 50px;
+}
+
+.b input {
+    padding-left:20px;
+   
+}
+
+.btn{
+
+border-radius: 2px;
+transition: .5s;
+cursor: pointer;
+margin-left: 50px;
+}
+
+.btn:hover{
+background-color: rgb(31, 212, 188);}
+

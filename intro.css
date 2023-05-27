@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    height: 100vh;
+    background:url('image/pexels-karolina-grabowska-4194850.jpg');
+    backdrop-filter: blur(2px);
+    background-position: center;
+    background-size: cover;
+  }
+  .container{
+    max-width: 1300px;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo{
+    font-size: 35px;
+    color: #fff;
+  }
+  .navbar-menu a{
+    color:aqua;
+    font-size: 13px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 100;
+    padding: 12px 15px;
+    border-radius: 2px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.4s;
+  }
+  
+  .navbar-menu a:hover{
+    background-color:burlywood;
+    color: #000;
+  }
+.contact .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+    padding: 2.5rem 0;
+
+  }
+  h1{
+    color:chocolate;
+ text-align: center;
+ font-family: 'Roboto Mono', monospace;
+ padding-top: 50px;
+  }
+  .pra{
+    color:cadetblue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:25px;
+
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border:2px solid rgb(164, 155, 155) ; 
+    border-width: 5px;
+    border-radius: 5px;
+    border-top: 0;
+  }
+
+
